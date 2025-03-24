@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+		background: #BBB8B8;
+	font-size: 16px;
+	color: #000;
+}
+
+header {
+	background-color: #b21010;
+}
+#acerca p {
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 40px;
+	
+}
+
+#acerca h1 {
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#acerca p {
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 40px;
+}
+
+.acercaimg {
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#servicios {
+	background-color: #262626;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#servicios h1 {
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	color: #b21010;
+}
+
+#servicios .tarjeta {
+	border: #e55f5f thick solid; 
+	padding: 40px 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px 0px;
+}
+
+#servicios .tarjeta:hover {
+	background-color: #b21010;
+	transition: all 0.3s ease-in-out;
+}
+
+#servicios .tarjeta h3 {
+	font-weight: 600;
+	color: #fff;
+}
+
+#servicios .tarjeta p {
+	font-weight: 400;
+	color: #fff;
+}
+
+#servicios .fa-solid {
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+#portafolio {
+	background-image: url("../img/IMG_0788.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#portafolio h1 {
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	
+}
+
+#portafolio img {
+	border: 5px #FFFFFF solid;
+	border-radius: 10px;
+	margin: 10px 0px;
+	align-content: center;
+}
+
+#portafolio h3 {
+	color: #fff;
+	font-weight: 700;
+}
+
+#contacto {
+	background-color: #262626;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#contacto h1 {
+	color: #fff;
+	font-weight: 700;
+}
+
+#contacto p {
+	color: #fff;
+	margin: 10px 40px;
+	
+}
+
+#contacto p:hover {
+	color: #b21010;
+	font-size: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+#contacto .fa-solid {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 10px;
+}
+
+#contacto .fa-brands {
+	color: #fff;
+	font-size: 40px;
+	margin: 10px 10px;
+}
+
+footer {
+	background-color: #b21010;
+	padding: 20px 0px;
+}
+
+footer h5 {
+	color: #fff;
+	text-align: center;
+	
+}
